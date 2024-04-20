@@ -12,3 +12,9 @@ print(a)
 
 lst_2 = [(i, j) for i in 'abc' for j in [1, 2, 3]]
 print(lst_2)
+
+n = 4
+m = 7
+a = [[8]*m for i in range(n)]
+for i in a:
+    print(i)
